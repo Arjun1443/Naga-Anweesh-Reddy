@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### Insurance Cost Studio — Live ML Application
+**Purpose:** Explore insurance-cost drivers and estimate charges through an interactive regression workflow.
+
+A deployed Streamlit application with data exploration, a reproducible random-forest baseline, held-out evaluation, and scenario predictions using the repository's insurance dataset.
+
+**Engineering demonstrated:** pandas · scikit-learn pipelines · missing-value handling · categorical encoding · model evaluation · Streamlit deployment
+
+**Why it matters:** Turns a notebook experiment into an accessible application where visitors can inspect the data, evaluate the model, and try an input scenario. Estimates describe a learning dataset, not a real insurance quote.
+
+[**Try the live app →**](https://health-insuranceprediction.streamlit.app/) · [View source](https://github.com/Arjun1443/HIP)
+
+
 ### Market Intelligence AI Agent
 **Purpose:** Bring source collection, retrieval, and report generation into one research workflow.
 
