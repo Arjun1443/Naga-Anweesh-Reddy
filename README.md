@@ -1,26 +1,94 @@
-# Hi, I’m Naga Anweesh Reddy 👋
+<div align="center">
 
-### AI Developer & Technical Trainer
+# Naga Anweesh Reddy
 
-I build AI applications and teach Python, machine learning, and full-stack AI development. My work connects practical learning with projects in retrieval-augmented generation, AI agents, and data science.
+### AI Developer · Python & Machine Learning Trainer
 
-## Selected projects
+Building practical AI applications with retrieval, agent workflows, and Python APIs.
 
-| Project | What you’ll find |
+[Explore my projects](https://github.com/Arjun1443?tab=repositories) · [Market Intelligence Agent](https://github.com/Arjun1443/Market-Intelligence-AI-Agent) · [LawBot](https://github.com/Arjun1443/Law-Bot)
+
+</div>
+
+---
+
+## About me
+
+I develop AI applications and teach Python, machine learning, and full-stack AI development. My work combines application building with the ability to explain technical concepts through practical examples.
+
+My focus is **Generative AI applications, retrieval-augmented generation (RAG), and agent workflows**. I connect models and data with backend APIs and interactive interfaces, while exploring how to make AI outputs easier to inspect and use.
+
+**Career focus:** AI Engineer and Full-Stack Generative AI Developer roles.
+
+## Featured projects
+
+### Market Intelligence AI Agent
+**Purpose:** Bring source collection, retrieval, and report generation into one research workflow.
+
+A Python application combining a FastAPI backend, a Streamlit dashboard, Apify collection, and Qdrant retrieval. It includes local fallback behavior for exploring the pipeline without external API credentials.
+
+**Engineering demonstrated:** API integration · semantic retrieval · pipeline orchestration · configuration · frontend/backend integration
+
+**Why it matters:** Research workflows need more than a model response: they need collected evidence, searchable context, and a usable way to inspect results. Demo sources are synthetic and are distinguished from live research.
+
+[View project and setup instructions →](https://github.com/Arjun1443/Market-Intelligence-AI-Agent)
+
+### LawBot — Indian Legal Q&A
+**Purpose:** Explore domain-specific question answering using Indian legal material.
+
+A notebook-based project covering legal data preparation, instruction-format datasets, language-model fine-tuning, and retrieval-augmented generation.
+
+**Engineering demonstrated:** Text preprocessing · JSONL dataset preparation · fine-tuning workflows · domain-specific retrieval
+
+**Why it matters:** Specialized question answering benefits from organized domain data and retrievable context. This project explores that workflow as a learning and research prototype; it is not a substitute for professional legal advice.
+
+[Explore the project →](https://github.com/Arjun1443/Law-Bot)
+
+### Data Science AI Tutor
+**Purpose:** Make data science concepts easier to explore through conversational explanations and practical examples.
+
+An educational AI project focused on topic explanations, learning support, and guided exploration of data science and machine learning.
+
+**Skills demonstrated:** AI application design · educational content design · translating technical concepts into accessible explanations
+
+**Why it matters:** Useful learning tools connect an explanation to examples a learner can understand and apply.
+
+[Explore the project →](https://github.com/Arjun1443/Data-Science-AI-Tutor)
+
+### Currency Conversion Agent — Google ADK
+**Purpose:** Explore structured agent instructions and execution using Gemini and Google ADK.
+
+An educational notebook demonstrating agent configuration, numeric-input handling, retry settings, and an in-memory runner.
+
+**Engineering demonstrated:** Google ADK · Gemini integration · agent instructions · API configuration · retry handling
+
+**Why it matters:** Small, focused agent tasks make behavior and failure cases easier to inspect. This demonstration does not integrate a verified live exchange-rate feed.
+
+[Explore the notebook →](https://github.com/Arjun1443/AI-Currency-Conversion-Agent-using-Google-ADK)
+
+## Technical toolkit
+
+| Area | Technologies and methods |
 | --- | --- |
-| [Market Intelligence AI Agent](https://github.com/Arjun1443/Market-Intelligence-AI-Agent) | A research application combining FastAPI, Streamlit, web collection, and Qdrant retrieval, with local demo fallbacks. |
-| [Data Science AI Tutor](https://github.com/Arjun1443/Data-Science-AI-Tutor) | An AI learning assistant for exploring data science topics through conversational explanations and examples. |
-| [Currency Conversion Agent](https://github.com/Arjun1443/AI-Currency-Conversion-Agent-using-Google-ADK) | An educational notebook exploring Gemini agents, Google ADK, structured instructions, and retry handling. |
+| Programming | Python |
+| Generative AI | LLM integration, RAG, semantic search, agent workflows |
+| AI frameworks | LangChain, Google ADK |
+| Backend & interfaces | FastAPI, Streamlit |
+| Retrieval & data | Qdrant, embeddings, JSON/JSONL, text preprocessing |
+| Model development | Machine learning, deep learning, fine-tuning workflows |
+| Development tools | Git, GitHub, Jupyter Notebook, Python virtual environments |
 
-## Technical focus
+## What I bring to a team
 
-- **AI applications:** RAG, semantic search, LLM integration, and agent workflows
-- **Backend and interfaces:** Python, FastAPI, and Streamlit
-- **Tools:** LangChain, Google ADK, Qdrant, and Git
-- **Teaching:** Practical explanations, guided projects, and hands-on Python and ML exercises
+- **Application thinking:** Connecting models, retrieval, APIs, and interfaces into a coherent workflow.
+- **Teaching experience:** Explaining Python and AI concepts through guided exercises and practical projects.
+- **Clear communication:** Making implementation choices and project limitations understandable.
+- **A learning mindset:** Building across data science, language models, and AI application development.
 
-## What I’m working toward
+## Current engineering priorities
 
-Making my AI projects easier to run, evaluate, and extend through clearer documentation, meaningful tests, and reproducible examples.
+- Reproducible setup and clearer project documentation
+- Meaningful tests and automated checks
+- Inspectable outputs and honest evaluation of model behavior
 
-I’m interested in collaborating on AI learning tools, retrieval systems, and useful agent applications.
+Interested in discussing **AI engineering roles, RAG applications, agent systems, or AI education tools**? Explore the repositories above to see my work.
