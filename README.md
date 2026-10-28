@@ -103,16 +103,16 @@ An educational AI project focused on topic explanations, learning support, and g
 
 [Explore the project →](https://github.com/Arjun1443/Data-Science-AI-Tutor)
 
-### Currency Conversion Agent — Google ADK
-**Purpose:** Explore structured agent instructions and execution using Gemini and Google ADK.
+### Currency Conversion Studio & Google ADK Experiment
+**Purpose:** Calculate currency conversions transparently and explore agent-based task design.
 
-An educational notebook demonstrating agent configuration, numeric-input handling, retry settings, and an in-memory runner.
+A Streamlit companion app using Python Decimal arithmetic, a visitor-supplied exchange rate, fee comparison, and downloadable calculation results. The original notebook separately explores Gemini and Google ADK; the calculator does not run that agent or fetch live market rates.
 
-**Engineering demonstrated:** Google ADK · Gemini integration · agent instructions · API configuration · retry handling
+**Engineering demonstrated:** Decimal arithmetic · input validation · interactive forms · CSV exports · Streamlit deployment; Google ADK and Gemini in the notebook experiment
 
-**Why it matters:** Small, focused agent tasks make behavior and failure cases easier to inspect. This demonstration does not integrate a verified live exchange-rate feed.
+**Why it matters:** Provides an inspectable calculation workflow with explicit assumptions, rather than relying on model-generated rates or arithmetic.
 
-[Explore the notebook →](https://github.com/Arjun1443/AI-Currency-Conversion-Agent-using-Google-ADK)
+[**Try the app →**](https://ai-currency-conversion-agent-using-app-ad.streamlit.app/) · [View source and notebook](https://github.com/Arjun1443/AI-Currency-Conversion-Agent-using-Google-ADK)
 
 ## Technical toolkit
 
