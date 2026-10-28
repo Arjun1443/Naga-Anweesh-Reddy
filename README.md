@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### Digit Recognition Studio — Interactive Neural Network Demo
+**Purpose:** Explore handwritten-digit classification through example predictions and image uploads.
+
+A Streamlit companion app with a compact MLP trained on scikit-learn's 8×8 digits dataset, a held-out evaluation, and per-class probability visualization. This cloud demo is distinct from the TensorFlow/MNIST experiment in the original notebook.
+
+**Engineering demonstrated:** Neural-network classification · preprocessing pipelines · image resizing and normalization · held-out evaluation · Streamlit interfaces
+
+**Why it matters:** Makes a computer-vision experiment accessible to visitors, with model behavior and the limitations of uploaded-image predictions made explicit.
+
+[**Try the app →**](https://hand-written-digit.streamlit.app/) · [View source](https://github.com/Arjun1443/HWD)
+
+
 ### Retention Intelligence — Live Churn Classification
 **Purpose:** Explore customer churn patterns and inspect predictions for individual customer scenarios.
 
