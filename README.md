@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### Vision Transformer Lens — Attention Visualization
+**Purpose:** Inspect how a pretrained Vision Transformer distributes final-layer attention over image patches.
+
+A Streamlit companion app for image uploads, attention extraction, adjustable overlays, and PNG export. It averages final-block CLS-to-patch attention from a pretrained ImageNet ViT and aligns the overlay with the model's center crop.
+
+**Engineering demonstrated:** PyTorch · timm · forward hooks · image preprocessing · attention visualization · model caching
+
+**Why it matters:** Makes transformer internals easier to explore visually. Attention maps are exploratory signals, not proof of causal explanation or clinical localization accuracy. The app uses pretrained weights; the accompanying notebook contains separate annotation and IoU experiments.
+
+[**Try the app →**](https://vision-transformers-from-scratch.streamlit.app/) · [View source](https://github.com/Arjun1443/Vision-transformers-from-scratch)
+
+
 ### MoE Routing Lab — Interactive Architecture Explorer
 **Purpose:** Visualize how sparse top-k routing selects experts and combines their outputs.
 
