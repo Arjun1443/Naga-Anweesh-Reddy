@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### Cinema Discovery — Live Movie Catalog Explorer
+**Purpose:** Browse a movie catalog and discover titles with similar wording.
+
+A deployed Streamlit application using character-level TF–IDF and cosine similarity, with title search, release-year exploration, and ranked similarity results.
+
+**Engineering demonstrated:** Text feature extraction · cosine similarity · catalog data parsing · cached search indexing · interactive Streamlit interfaces
+
+**Why it matters:** Turns a data-science experiment into an accessible discovery tool. This app compares title text; it does not infer plot, genre, or personal taste. The original SVD notebook is a separate experiment requiring ratings data.
+
+[**Try the live app →**](https://netflix-recommendation-engine-06.streamlit.app/) · [View source](https://github.com/Arjun1443/Netflix-Recommendation-Engine)
+
+
 ### Digit Recognition Studio — Interactive Neural Network Demo
 **Purpose:** Explore handwritten-digit classification through example predictions and image uploads.
 
