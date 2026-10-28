@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### MoE Routing Lab — Interactive Architecture Explorer
+**Purpose:** Visualize how sparse top-k routing selects experts and combines their outputs.
+
+A Streamlit simulation with adjustable expert counts, active experts per token, token counts, and a reproducible seed. Visitors can inspect routing weights, expert utilization, and downloadable routing data.
+
+**Engineering demonstrated:** NumPy · top-k selection · softmax normalization · weighted aggregation · interactive visualization
+
+**Why it matters:** Makes the sparsity–utilization tradeoff tangible. The app uses synthetic logits and expert outputs; it is an educational simulation, not trained language-model inference. The accompanying study notebook retains its upstream attribution.
+
+[**Try the app →**](https://moe-mixtureofexperts.streamlit.app/) · [View source](https://github.com/Arjun1443/MOE-Mixture_of_Experts)
+
+
 ### Cinema Discovery — Live Movie Catalog Explorer
 **Purpose:** Browse a movie catalog and discover titles with similar wording.
 
