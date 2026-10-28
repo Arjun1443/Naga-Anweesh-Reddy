@@ -22,6 +22,18 @@ My focus is **Generative AI applications, retrieval-augmented generation (RAG), 
 
 ## Featured projects
 
+### Retention Intelligence — Live Churn Classification
+**Purpose:** Explore customer churn patterns and inspect predictions for individual customer scenarios.
+
+A deployed Streamlit application using the included customer dataset, a random-forest classification pipeline, held-out evaluation, a confusion matrix, and class-probability visualization.
+
+**Engineering demonstrated:** pandas · scikit-learn pipelines · categorical encoding · missing-value handling · classification metrics · Streamlit deployment
+
+**Why it matters:** Demonstrates how a classification experiment can become an interactive tool for exploring retention questions. Predictions are educational estimates, not calibrated guarantees or evidence that a retention intervention will work.
+
+[**Try the live app →**](https://customer-churn-classfication.streamlit.app/) · [View source](https://github.com/Arjun1443/Customer-Churn-Classfication)
+
+
 ### Insurance Cost Studio — Live ML Application
 **Purpose:** Explore insurance-cost drivers and estimate charges through an interactive regression workflow.
 
